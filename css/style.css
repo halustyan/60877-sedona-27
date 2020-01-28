@@ -1,1 +1,62 @@
 @charset "utf-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+img{
+	max-width: 100%;
+}
+
+body{
+	background-color: #f2f2f2;
+}
+header main footer{
+	max-width: 1206px;
+	margin: 0 auto;
+}
+.real_city{
+	display: flex;
+}
+.real_cty_content{
+	background-color: #81b3d2;
+	display: flex;
+	flex-direction: column;
+}
+.benefit{
+	display: flex;
+	flex-direction: column;
+}
+.bridge_of_the_devil{
+	display: flex;
+}
+.bridge_of_the_devil_content{
+	display: flex;
+	flex-direction: column;
+	background-color: #81b3d2;
+}
+.deskription{
+	display: flex;
+	flex-direction: column;
+}
+.filters{
+	background-image: url("../img/hotels_flter_background.png");
+}
+.social_links{
+	display: flex;
+}
+.social_links a{
+	background-color: #81b3d2;
+}
+.twitter{
+	padding: 17px 14px 16px 16px;
+}
+.facebook{
+	padding: 13px 17px 13px 17px;
+}
+footer{
+	display: flex;
+	justify-content: space-between;
+}
+.youtube{
+	padding: 16px 13px 16px 13px;
+}
