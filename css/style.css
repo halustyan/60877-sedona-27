@@ -70,3 +70,6 @@ footer{
 .main_intro{
 	max-width: 458px;
 }
+.what-have-found{
+	display: flex;
+}

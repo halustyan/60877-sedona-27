@@ -108,6 +108,41 @@
          </div>
       </footer>
       <div class="modal-icon">
+		  <p>ПОИСК ГОСТИНИЦЫ В седоне</p>
+		   <form class="modal" method="get" action="php/modal.php">
+			   <ul>
+          <li>
+            
+            <label for="checkin-date">
+              Дата заезда:
+            </label>
+			  <input type="checkbox" name="checkin-date" id="checkin-date" >
+          </li>
+          <li>
+			  <label for="checkout-time">
+             Дата выезда:
+            </label>
+            <input type="checkbox" name="checkout-time" id="checkout-time">
+            
+          </li>
+          <li>
+			  <label for="adults-item">
+              Взрослые:
+            </label>
+            <input type="text" name="adults-item" id="adults-item" >
+            
+          </li>
+				   <li>
+			  <label for="children-item">
+              Дети:
+            </label>
+            <input type="text" name="children" id="children-item" >
+            
+          </li>
+				   <button type="submit">Найти</button>
+        </ul>
+			   </form>
+		  
       </div>
    </body>
 </html>
