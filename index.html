@@ -108,41 +108,30 @@
          </div>
       </footer>
       <div class="modal-icon">
-		  <p>ПОИСК ГОСТИНИЦЫ В седоне</p>
-		   <form class="modal" method="get" action="php/modal.php">
-			   <ul>
-          <li>
-            
-            <label for="checkin-date">
-              Дата заезда:
-            </label>
-			  <input type="checkbox" name="checkin-date" id="checkin-date" >
-          </li>
-          <li>
-			  <label for="checkout-time">
-             Дата выезда:
-            </label>
-            <input type="checkbox" name="checkout-time" id="checkout-time">
-            
-          </li>
-          <li>
-			  <label for="adults-item">
-              Взрослые:
-            </label>
-            <input type="text" name="adults-item" id="adults-item" >
-            
-          </li>
-				   <li>
-			  <label for="children-item">
-              Дети:
-            </label>
-            <input type="text" name="children" id="children-item" >
-            
-          </li>
-				   <button type="submit">Найти</button>
-        </ul>
-			   </form>
-		  
+         <p>ПОИСК ГОСТИНИЦЫ В седоне</p>
+         <form class="modal" method="get" action="php/modal.php">
+            <fieldset>
+               <label for="date_checkin">Дата заезда</label>
+               <input type="text" name="date_checkin" id="date_checkin" value="" placeholder="">
+               <img src="img/calendar.svg" alt="calendar checkin">
+            </fieldset>
+            <fieldset>
+               <label for="date-checkout">Дата выезда</label>
+               <input type="text" name="date-checkout" id="date-checkout" value="">
+               <img src="img/calendar.svg" alt="calendar checkout">
+            </fieldset>
+            <fieldset class="adultspluschildren">
+               <label for="adults">Взрослые</label>
+               <button><i class="icon-minus-1"></i></button>
+               <input type="text" name="adults" id="adults" value="">
+               <button> <i class="icon-plus-1"></i></button>
+               <label for="children">Дети</label>
+               <button> <i class="icon-minus-1"></i></button>
+               <input type="text" name="children" id="children" value="">
+               <button> <i class="icon-plus-1"></i></button>
+            </fieldset>
+            <input type="submit" value="Найти">
+         </form>
       </div>
    </body>
 </html>

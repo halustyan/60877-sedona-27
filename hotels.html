@@ -17,43 +17,55 @@
             </ul>
          </nav>
          <div class="filters">
-			 
-		
-		   <form class="filter" method="get" action="php/filter.php">
-		
-			   <div class="infrastructure">
-				   <p>Инфраструктура:</p>
-			       <input type="checkbox" checked><span>бассейн</span>
-			        <input type="checkbox" ><span>парковка</span>
-				   <input type="checkbox" ><span>wi-fi</span>
-			   </div>
-			   
-			   <div class="type_of_home">
-			   <p>Инфраструктура:</p>
-			       <input type="checkbox" checked><span>бассейн</span>
-			        <input type="checkbox" checked><span>парковка</span>
-				   <input type="checkbox" checked><span>wi-fi</span>
-			   
-			   </div>
-			   
-			   <div class="filter_range">
-			      <p>Стоимость в сутки (Р):</p>
-				   <span>от 0</span>
-				   <span>До 3000</span>
-			   <input type="submit" value="Показать">
-			   </div>
-			   
-			 </form>
-			 <div class="what-have-found">
-			 
-			<span> Найдено: 3</span>
-				 <span>Сортировка:</span>
-				 <span>По цене</span>
-				 <span>По типу</span>
-				 <span>По рейтингу</span>
-				 <img src="img/icon-up-dir.svg" alt="icon-up-dir">
-			 <img src="img/icon-down-dir.svg" alt="icon-down-dir">
-			 </div>
+            <form class="filter" method="get" action="php/filter.php">
+               <div class="infrastructure">
+                  <p>Инфраструктура:</p>
+                  <ul>
+                     <li>
+                        <input type="checkbox" checked id="pool"><label for="pool">бассейн</label>
+                     </li>
+                     <li> 
+                        <input type="checkbox" id="parking"><label for="parking">парковка</label>
+                     </li>
+                     <li>
+                        <input type="checkbox" id="wifi"><label>wi-fi</label>
+                     </li>
+                  </ul>
+               </div>
+               <div class="type_of_home">
+                  <p>Тип жилья:</p>
+                  <ul>
+                     <li> 
+                        <input type="checkbox" checked id="hotel"><label for="hotel">гостиница</label>
+                     </li>
+                     <li>   
+                        <input type="checkbox" checked id="motel"><label for="motel">мотель</label>
+                     </li>
+                     <li>  
+                        <input type="checkbox" checked id="apartaments"><label for="apartaments">апартаменты</label>
+                     </li>
+                  </ul>
+               </div>
+               <div class="filter_range">
+                  <p>Стоимость в сутки (Р):</p>
+                  <label for="from">от</label> <input type="text" placeholder="0" id="from">
+                  <label for="to">До </label><input type="text" placeholder="3000" id="to">
+                  <div class="rangediv">
+                     <img src="img/filter-button.svg" alt="filter button">
+                     <img src="img/filter-button.svg" alt="filter button">
+                  </div>
+                  <input type="submit" value="Показать">
+               </div>
+            </form>
+            <div class="what-have-found">
+               <span> Найдено: 3</span>
+               <span>Сортировка:</span>
+               <span><a href="">По цене</a></span>
+               <span><a href="">По типу</a></span>
+               <span><a href="">По рейтингу</a></span>
+               <a href=""> <img src="img/icon-up-dir.svg" alt="icon-up-dir"></a>
+               <a href=""> <img src="img/icon-down-dir.svg" alt="icon-down-dir"></a>
+            </div>
          </div>
       </header>
       <main>
