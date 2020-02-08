@@ -58,9 +58,20 @@
  
 .icon-plus-1:before { content: '\e802'; } /* 'о ‚' */
 .icon-minus-1:before { content: '\e803'; } /* 'о ѓ' */
+@font-face {
+    font-family: PT-Sans-Bold;
+    src:url("../fonts/web/ptsansbold.woff"); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: PT-Sans-Regular;
+    src:url("../fonts/web/PTSansRegular.ttf"); /* Путь к файлу со шрифтом */
+   }
 *{
 	padding: 0;
 	margin: 0;
+}
+a{
+	text-decoration: none;
 }
 fieldset{
 	border: 0;
@@ -75,17 +86,38 @@ img{
 body{
 	background-color: #f2f2f2;
 }
-header main footer{
-	max-width: 1206px;
+header{
 	margin: 0 auto;
+	max-width: 1200px;
+}
+main{
+	margin: 0 auto;
+	max-width: 1200px;
+}
+footer{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+body{
+	position: relative;
+}
+.header_photo_content{
+	display: block;
+    text-align: center;
+	background-image: url("../img/background_header.jpg");
+	padding-top: 76px;
+	padding-bottom: 87px;
 }
 .real_city{
 	display: flex;
 }
-.real_cty_content{
+.real_city_content{
 	background-color: #81b3d2;
 	display: flex;
 	flex-direction: column;
+	    align-items: center;
+	padding: 45px 59px 64px 59px;
+	text-align: center;
 }
 .benefit{
 	display: flex;
@@ -97,23 +129,24 @@ header main footer{
 .bridge_of_the_devil_content{
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	background-color: #81b3d2;
 }
 .deskription{
 	display: flex;
 	flex-direction: column;
 }
-.filters{
-	background-image: url("../img/hotels_flter_background.png");
-}
+
 .social_links{
 	display: flex;
+    align-items: center;
 }
 .social_links a{
 	background-color: #81b3d2;
 }
 .twitter{
-	padding: 17px 14px 16px 16px;
+	padding: 16px 14px 16px 16px;
 }
 .facebook{
 	padding: 13px 17px 13px 17px;
@@ -125,6 +158,13 @@ footer{
 .contact_footer{
 	display: flex;
 	flex-direction: column;
+	font-size: 21px;
+	line-height: 26px;
+	font-family: PT-Sans-Bold;
+	text-transform: uppercase;
+}
+.contact_footer a{
+	color:#000000;
 }
 .youtube{
 	padding: 16px 13px 16px 13px;
@@ -132,10 +172,399 @@ footer{
 .main_intro{
 	max-width: 458px;
 }
+.facebook{
+	padding-top: 19px;
+}
 .what-have-found{
 	display: flex;
 }
 .rangediv{
 	height: 2px;
 	width: 317px;
+}
+.menu_main{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	background-color: #fff;
+}
+.logo{
+	position: absolute;
+	left: 45%;
+}
+.menu_main ul{
+	display: flex;
+	    padding-top: 22px;
+    padding-bottom: 24px;
+	justify-content: space-around;
+}
+.menu_main ul a{
+	font-size: 14px;
+	line-height: 26px;
+	text-transform: uppercase;
+	color: #000000;
+    font-family: PT-Sans-Bold;
+}
+.small_city{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	padding-top: 65px;
+	padding-bottom: 59px;
+	background-color: #ffffff;
+}
+.small_city>p{
+	text-transform: uppercase;
+}
+.small_city_sedona{
+	font-family: PT-Sans-Bold;
+	color:#000000;
+	font-size: 21px;
+	line-height: 26px;
+	    max-width: 441px;
+    text-align: center;
+	margin-bottom: 41px;
+}
+.small_city_five_reasons{
+	font-size: 14px;
+	line-height: 26px;
+	font-family: PT-Sans-Regular;
+	color: #333333;
+}
+.real_city_header{
+	font-size: 21px;
+	line-height: 21px;
+	color: #ffffff;
+	font-family: PT-Sans-Bold;
+	margin-bottom: 29px;
+}
+.real_city_number{
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 21px;
+	margin-bottom: 32px;
+}
+.benefits-list{
+	    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+	background-color: #fff;
+
+}
+.benefits-list li{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.sedona_is_not_entertainment{
+	font-family: PT-Sans-Regular;
+	font-size: 14px;
+	line-height: 21px;
+	color: #fff;
+}
+.benefits-list{
+	    padding-top: 62px;
+    padding-bottom: 88px;
+}
+.icon_benefits{
+	margin-bottom: 29px;
+}
+.benefits_deskription{
+	font-family: PT-Sans-Bold;
+	margin-bottom: 32px;
+	font-size: 21px;
+	line-height: 21px;
+	text-transform: uppercase;
+}
+.benefits_deskription_text{
+	font-family: PT-Sans-Regular;
+	font-size: 14px;
+	line-height: 21px;
+	color: #333333;
+}
+.bridge_of_the_devil_deskription{
+	font-family: PT-Sans-Bold;
+	font-size: 21px;
+	line-height: 21px;
+	margin-bottom: 29px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.number_two{
+	font-size: 14px;
+	line-height: 21px;
+	font-family: PT-Sans-Regular;
+	margin-bottom: 29px;
+	color: #fff;
+}
+.yes_you_can_walk_on_it{
+	font-size: 14px;
+	line-height: 21px;
+	font-family: PT-Sans-Regular;
+	text-transform: uppercase;
+	text-align: center;
+	color:#fff;
+}
+.deskription_of_the_benefits{
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+	padding-top: 50px;
+	padding-bottom: 65px;
+	background-color: #eeeeee;
+}
+.deskription{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.deskription_in_deskription_of_the_benefits{
+	font-size: 21px;
+	line-height: 21px;
+	text-transform: uppercase;
+	font-family: PT-Sans-Bold;
+	margin-bottom: 29px;
+}
+.deskription_in_deskription_of_the_benefits_bottom{
+	margin-bottom: 29px;
+}
+.deskription_in_deskription_of_the_benefits:first-child{
+	max-width: 117px;
+}
+.number_in_deskription{
+	font-family: PT-Sans-Regular;
+	font-size: 14px;
+	line-height: 21px;
+	margin-bottom: 32px;
+}
+.main_text_in_deskription{
+	font-size: 14px;
+	line-height: 21px;
+	font-family: PT-Sans-Regular;
+	text-transform: uppercase;
+}
+footer{
+	background-image: url("../img/map.jpg");
+	padding-top: 472px;
+}
+.content_footer{
+	    align-items: center;
+	padding-top: 36px;
+	padding-bottom: 33px;
+	    background-color: #fdfdfd;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.footer_logo{
+	    display: flex;
+    align-items: center;
+}
+.footer_logo span{
+  margin-right: 8px;
+	font-size: 14px;
+	line-height: 26px;
+	font-family: PT-Sans-Regular;
+}
+.have_u_interested{
+	padding-top: 58px;
+	padding-bottom: 54px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fff;
+}
+.did_u_interest{
+	font-size: 30px;
+	line-height: 36px;
+	font-family: PT-Sans-Bold;
+	margin-bottom: 38px;
+	text-transform: uppercase;
+}
+.fill_in_date_range{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: PT-Sans-Regular;
+	text-transform: uppercase;
+	max-width: 434px;
+    text-align: center;
+}
+.find_hotels_in_sedona{
+	font-size: 21px;
+	line-height: 26px;
+	font-family: PT-Sans-Bold;
+	color: #fff;
+	text-transform: uppercase;
+	background-color: #766357;
+}
+.modal-icon{
+	position: fixed;
+	    top: 34%;
+    left: 41%;
+max-width: 589px;
+	height: 483px;
+}
+/* Cтилизация hotels.html*/
+.without_map{
+	background-image: inherit;
+	padding-top: 0;
+	background-color: #fefefe;
+}
+.content_filters{
+	background-image: url("../img/hotels_flter_background.jpg");
+	display: flex;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 73px;
+	padding-right: 73px;
+	
+}
+.type_of_home{
+	margin-right: 347px;
+}
+.list_filters{
+	font-size: 14px;
+	line-height: 21px;
+	font-family: PT-Sans-Regular;
+	text-transform: uppercase;
+	color:#fff;
+}
+.heads_filters{
+	font-size: 16px;
+	line-height: 21px;
+	font-family: PT-Sans-Bold;
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 29px;
+}
+.infrastructure{
+	display: flex;
+	flex-direction: column;
+	margin-right: 113px;
+}
+.from{
+	font-size: 14px;
+	line-height: 21px;
+	text-transform: uppercase;
+	font-family: PT-Sans-Regular;
+	color: #fff;
+}
+.to{
+		font-size: 14px;
+	line-height: 21px;
+	text-transform: uppercase;
+	font-family: PT-Sans-Regular;
+	color: #fff;
+}
+.show{
+	background-image: inherit;
+    background-color: inherit;
+    border: 2px solid #fff;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    font-family: PT-Sans-Regular;
+    color: #fff;
+	padding: 11px 33px 11px 33px;
+}
+.what-have-found{
+	padding-left: 73px;
+	padding-right: 73px;
+	padding-top: 32px;
+	padding-bottom: 34px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #fff;
+}
+.found_results_in_filter{
+	font-family: PT-Sans-Bold;
+	font-size: 21px;
+	line-height: 26px;
+	text-transform: uppercase;
+	margin-right: 50px;
+}
+.sort_in_filter{
+	font-size: 12px;
+	line-height: 18px;
+		 font-family: PT-Sans-Regular;
+}
+.sort_in_filter{
+	margin-right: 39px;
+}
+.center_good{
+	display: flex;
+}
+.main_content_good{
+	display: flex;
+}
+.content_good{
+	display: flex;
+	flex-direction: column;
+}
+.good{
+	background-color: #fefefe;
+	padding-bottom: 61px;
+	    padding-bottom: 30px;
+    padding-top: 30px;
+border-top:1px solid #e5e5e5;
+	border-bottom:1px solid #e5e5e5;
+}
+.center_good{
+	padding-left: 73px;
+	padding-right: 73px;
+	justify-content: space-between;
+}
+.img_good{
+	margin-right:36px;
+}
+.hotels_from{
+	margin-top: 18px;
+	margin-bottom: 20px;
+}
+.hotels_from span:first-child{
+	
+	margin-right: 50px;
+}
+.hotels_from span{
+	font-size: 14px;
+	line-height: 21px;
+	 font-family: PT-Sans-Regular;
+	text-transform: uppercase;
+}
+.content_good_header{
+	font-size: 21px;
+	line-height: 26px;
+	font-family: PT-Sans-Bold;
+}
+.more_in_good_link{
+	font-family: PT-Sans-Bold;
+	background-color: #81b3d2;
+	text-transform: uppercase;
+	padding: 8px 17px 8px 17px;
+	color: #fff;
+	margin-right: 6px;
+}
+.book{
+		font-family: PT-Sans-Bold;
+	background-color: #766357;
+	text-transform: uppercase;
+	padding: 8px 15px 8px 15px;
+	color: #fff;
+}
+.stars_rating{
+	margin-bottom: 47px;
+}
+.rating{
+	display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.rating span{
+	    background-color: #f2f2f2;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 21px;
+	 font-family: PT-Sans-Regular;
+	padding: 6px 14px 6px 14px;
 }
