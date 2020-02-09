@@ -118,6 +118,7 @@ body{
 	    align-items: center;
 	padding: 45px 59px 64px 59px;
 	text-align: center;
+	text-transform: uppercase;
 }
 .benefit{
 	display: flex;
@@ -162,6 +163,7 @@ footer{
 	line-height: 26px;
 	font-family: PT-Sans-Bold;
 	text-transform: uppercase;
+	font-weight: bold;
 }
 .contact_footer a{
 	color:#000000;
@@ -180,7 +182,21 @@ footer{
 }
 .rangediv{
 	height: 2px;
-	width: 317px;
+    width: 253px;
+    color: #fff;
+    background-color: #fff;
+	position: relative;
+	margin-bottom: 32px;
+    margin-top: 23px;
+}
+.rangediv img:first-child{
+	position: absolute;
+	top:-9px;
+}
+.rangediv img:last-child{
+	position: absolute;
+	top:-9px;
+	left: 200px;
 }
 .menu_main{
 	width: 1200px;
@@ -204,6 +220,7 @@ footer{
 	text-transform: uppercase;
 	color: #000000;
     font-family: PT-Sans-Bold;
+	font-weight: bold;
 }
 .small_city{
 	display: flex;
@@ -218,6 +235,7 @@ footer{
 }
 .small_city_sedona{
 	font-family: PT-Sans-Bold;
+	font-weight: bold;
 	color:#000000;
 	font-size: 21px;
 	line-height: 26px;
@@ -236,6 +254,7 @@ footer{
 	line-height: 21px;
 	color: #ffffff;
 	font-family: PT-Sans-Bold;
+	font-weight: bold;
 	margin-bottom: 29px;
 }
 .real_city_number{
@@ -253,8 +272,20 @@ footer{
 }
 .benefits-list li{
 	display: flex;
-	flex-direction: column;
-	align-items: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+.benefits-list li:first-child{
+max-width: 255px;
+}
+.benefits-list li:nth-child(2){
+max-width: 286px;
+}
+.benefits-list li:nth-child(3){
+max-width: 272
+	px;
 }
 .sedona_is_not_entertainment{
 	font-family: PT-Sans-Regular;
@@ -271,6 +302,7 @@ footer{
 }
 .benefits_deskription{
 	font-family: PT-Sans-Bold;
+	font-weight: bold;
 	margin-bottom: 32px;
 	font-size: 21px;
 	line-height: 21px;
@@ -284,6 +316,7 @@ footer{
 }
 .bridge_of_the_devil_deskription{
 	font-family: PT-Sans-Bold;
+	font-weight: bold;
 	font-size: 21px;
 	line-height: 21px;
 	margin-bottom: 29px;
@@ -324,6 +357,7 @@ footer{
 	line-height: 21px;
 	text-transform: uppercase;
 	font-family: PT-Sans-Bold;
+	font-weight: bold;
 	margin-bottom: 29px;
 }
 .deskription_in_deskription_of_the_benefits_bottom{
@@ -366,6 +400,7 @@ footer{
 	font-size: 14px;
 	line-height: 26px;
 	font-family: PT-Sans-Regular;
+	text-transform: uppercase;
 }
 .have_u_interested{
 	padding-top: 58px;
@@ -379,6 +414,7 @@ footer{
 	font-size: 30px;
 	line-height: 36px;
 	font-family: PT-Sans-Bold;
+	font-weight: bold;
 	margin-bottom: 38px;
 	text-transform: uppercase;
 }
@@ -394,9 +430,13 @@ footer{
 	font-size: 21px;
 	line-height: 26px;
 	font-family: PT-Sans-Bold;
+	font-weight: bold;
 	color: #fff;
 	text-transform: uppercase;
 	background-color: #766357;
+	text-align: center;
+	padding-top: 35px;
+    padding-bottom: 35px;
 }
 .modal-icon{
 	position: fixed;
@@ -414,6 +454,7 @@ max-width: 589px;
 .content_filters{
 	background-image: url("../img/hotels_flter_background.jpg");
 	display: flex;
+	    background-size: cover;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	padding-left: 73px;
@@ -434,6 +475,7 @@ max-width: 589px;
 	font-size: 16px;
 	line-height: 21px;
 	font-family: PT-Sans-Bold;
+	font-weight: bold;
 	text-transform: uppercase;
 	color: #fff;
 	margin-bottom: 29px;
@@ -442,6 +484,26 @@ max-width: 589px;
 	display: flex;
 	flex-direction: column;
 	margin-right: 113px;
+}
+.infrastructure ul li{
+	display: flex;
+	align-items: center;
+	    margin-bottom: 23px;
+
+}
+.infrastructure ul li input{
+	margin-right: 16px;
+}
+.type_of_home ul li{
+		display: flex;
+	align-items: center;
+	 margin-bottom: 23px;
+}
+.type_of_home ul li input{
+	margin-right: 16px;
+}
+.price_in_day{
+	margin-bottom: 15px;
 }
 .from{
 	font-size: 14px;
@@ -479,6 +541,7 @@ max-width: 589px;
 }
 .found_results_in_filter{
 	font-family: PT-Sans-Bold;
+	font-weight: bold;
 	font-size: 21px;
 	line-height: 26px;
 	text-transform: uppercase;
@@ -536,9 +599,12 @@ border-top:1px solid #e5e5e5;
 	font-size: 21px;
 	line-height: 26px;
 	font-family: PT-Sans-Bold;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 .more_in_good_link{
 	font-family: PT-Sans-Bold;
+	font-weight: bold;
 	background-color: #81b3d2;
 	text-transform: uppercase;
 	padding: 8px 17px 8px 17px;
@@ -547,6 +613,7 @@ border-top:1px solid #e5e5e5;
 }
 .book{
 		font-family: PT-Sans-Bold;
+	font-weight: bold;
 	background-color: #766357;
 	text-transform: uppercase;
 	padding: 8px 15px 8px 15px;
@@ -567,4 +634,85 @@ border-top:1px solid #e5e5e5;
     line-height: 21px;
 	 font-family: PT-Sans-Regular;
 	padding: 6px 14px 6px 14px;
+}
+.sorting_link{
+	font-size: 12px;
+	line-height: 18px;
+	font-family: PT-Sans-Regular;
+}
+.sorting_link a{
+	text-transform: uppercase;
+}
+.for_price{
+	margin-right: 30px;
+} 
+.for_price a{
+	color: #a8c9de;
+}
+.for_type a{
+	color: #d1d1d1;
+}
+.for_rating a{
+	color: #d1d1d1;
+}
+.for_type{
+	margin-right: 30px;
+}
+.arrows a img{
+	color: #cacaca;
+}
+.from_input{
+	    color: #fff;
+    background-color: inherit;
+    border: 0;
+    max-width: 43px;
+}
+.input_ranges{
+	    max-width: 180px;
+    border: 2px solid #fff;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-right: 50px;
+    padding-left: 65px;
+	   margin-bottom: 11px;
+}
+/*стилизация модального окна*/
+.modal{
+	background-color: #fff;
+	padding: 55px;
+}
+.middle_text_form{
+	font-size: 14px;
+	line-height: 26px;
+	font-family: PT-Sans-Bold;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.input_plus_img{
+	display: flex;
+}
+.middle_form_date{
+	display: flex;
+}
+.plus_negative{
+	display: flex;
+}
+.adultspluschildren input{
+	max-width: 115px;
+}
+.modal-icon fieldset input{
+	border: 0;
+	background-color: #f2f2f2;
+}
+.modal_submit{
+background-color: #81b3d2;
+	border: 0;
+	width: 100%;
+	padding: 17px 0 21px 0;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: PT-Sans-Bold;
+	font-weight: bold;
+	margin-top: 54px;
 }

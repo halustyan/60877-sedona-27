@@ -110,27 +110,40 @@
       <div class="modal-icon">
          <p class="find_hotels_in_sedona">ПОИСК ГОСТИНИЦЫ В седоне</p>
          <form class="modal" method="get" action="php/modal.php">
-            <fieldset>
-               <label for="date_checkin">Дата заезда</label>
-               <input type="text" name="date_checkin" id="date_checkin" value="" placeholder="">
+            <fieldset class="middle_form_date">
+				<span class="input_plus_img">
+               <label for="date_checkin" class="middle_text_form">Дата заезда</label>
+				
+				
+               <input type="text" name="date_checkin" id="date_checkin" value="24 апреля 2017 года" placeholder="">
                <img src="img/calendar.svg" alt="calendar checkin">
+				</span>
             </fieldset>
             <fieldset>
-               <label for="date-checkout">Дата выезда</label>
-               <input type="text" name="date-checkout" id="date-checkout" value="">
+				<span class="input_plus_img">
+               <label for="date-checkout" class="middle_text_form">Дата выезда</label>
+				
+               <input type="text" name="date-checkout" id="date-checkout" value="4 июля 2017 года">
                <img src="img/calendar.svg" alt="calendar checkout">
+					</span>
             </fieldset>
             <fieldset class="adultspluschildren">
-               <label for="adults">Взрослые</label>
+				<span class="plus_negative">
+               <label for="adults" class="middle_text_form">Взрослые</label>
+				
                <button><i class="icon-minus-1"></i></button>
-               <input type="text" name="adults" id="adults" value="">
+               <input type="text" name="adults" id="adults" value="0">
                <button> <i class="icon-plus-1"></i></button>
-               <label for="children">Дети</label>
+				</span>
+				<span class="plus_negative">
+               <label for="children" class="middle_text_form">Дети</label>
+				
                <button> <i class="icon-minus-1"></i></button>
-               <input type="text" name="children" id="children" value="">
+               <input type="text" name="children" id="children" value="1">
                <button> <i class="icon-plus-1"></i></button>
+				</span>
             </fieldset>
-            <input type="submit" value="Найти">
+            <input type="submit" value="Найти" class="modal_submit">
          </form>
       </div>
    </body>

@@ -48,9 +48,15 @@
                   </ul>
                </div>
                <div class="filter_range">
-                  <p class="heads_filters">Стоимость в сутки (Р):</p>
-                  <label for="from" class="from">от</label> <input type="text" placeholder="0" id="from">
-                  <label for="to" class="to">До </label><input type="text" placeholder="3000" id="to">
+                  <p class="heads_filters price_in_day">Стоимость в сутки (Р):</p>
+				   
+				   <div class="input_ranges">
+                  <label for="from" class="from">от</label> 
+				   <input type="text" value="0" id="from" class="from_input">
+                  <label for="to" class="to">До </label>
+				   <input type="text" value="3000" id="to" class="from_input">
+				   </div>
+				   
                   <div class="rangediv">
                      <img src="img/filter-button.svg" alt="filter button">
                      <img src="img/filter-button.svg" alt="filter button">
@@ -63,9 +69,9 @@
 				<div class="what-have-found_content">
                <span class="found_results_in_filter"> Найдено: <span class="result_filter">3</span></span>								
                <span class="sort_in_filter">Сортировка:</span>
-               <span class="for_price"><a href="">По цене</a></span>
-               <span class="for_type"><a href="">По типу</a></span>
-               <span class="for_rating"><a href="">По рейтингу</a></span>
+               <span class="for_price sorting_link"><a href="">По цене</a></span>
+               <span class="for_type sorting_link"><a href="">По типу</a></span>
+               <span class="for_rating sorting_link"><a href="">По рейтингу</a></span>
 				</div>
 				<div class="arrows">
                <a href=""> <img src="img/icon-up-dir.svg" alt="icon-up-dir"></a>
