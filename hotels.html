@@ -6,15 +6,15 @@
       <link href="css/style.css" rel="stylesheet" type="text/css">
       <link href="css/normalize.css" rel="stylesheet" type="text/css">
    </head>
-   <body>
-      <header>
+   <body class="body">
+      <header class="header">
          <nav class="menu_main">
             <a href="index.html" class="logo"><img src="img/logo-sedona.svg" alt="logo Sedona" width="140" height="71"></a>
             <ul>
-               <li><a href="information.html">Информация</a></li>
-               <li><a href="fotoandvideo.html">Фото и видео</a></li>
-               <li><a href="map.html">Карта штата</a></li>
-               <li><a href="hotels.html">Гостиницы</a></li>
+               <li class="text_decoration_none"><a href="information.html">Информация</a></li>
+               <li class="text_decoration_none"><a href="fotoandvideo.html">Фото и видео</a></li>
+               <li class="text_decoration_none"><a href="map.html">Карта штата</a></li>
+               <li class="text_decoration_none"><a href="hotels.html">Гостиницы</a></li>
             </ul>
          </nav>
          <div class="filters">
@@ -23,13 +23,13 @@
                   <div class="infrastructure">
                      <p class="heads_filters">Инфраструктура:</p>
                      <ul>
-                        <li>
+                        <li class="text_decoration_none">
                            <input type="checkbox" checked id="pool"><label for="pool" class="list_filters">бассейн</label>
                         </li>
-                        <li> 
+                        <li class="text_decoration_none"> 
                            <input type="checkbox" id="parking"><label for="parking" class="list_filters">парковка</label>
                         </li>
-                        <li>
+                        <li class="text_decoration_none">
                            <input type="checkbox" id="wifi"><label class="list_filters" for="wifi">wi-fi</label>
                         </li>
                      </ul>
@@ -37,13 +37,13 @@
                   <div class="type_of_home">
                      <p class="heads_filters">Тип жилья:</p>
                      <ul>
-                        <li> 
+                        <li class="text_decoration_none"> 
                            <input type="checkbox" checked id="hotel"><label for="hotel" class="list_filters">гостиница</label>
                         </li>
-                        <li>   
+                        <li class="text_decoration_none">   
                            <input type="checkbox" checked id="motel"><label for="motel" class="list_filters">мотель</label>
                         </li>
-                        <li>  
+                        <li class="text_decoration_none">  
                            <input type="checkbox" checked id="apartaments"><label for="apartaments" class="list_filters">апартаменты</label>
                         </li>
                      </ul>
@@ -80,12 +80,12 @@
             </div>
          </div>
       </header>
-      <main>
+      <main class="main">
          <section>
             <div class="good">
                <div class="center_good">
                   <div class="main_content_good">
-                     <img src="img/img_amara.jpg" alt="img_amara" class="img_good">
+                     <img src="img/img_amara.jpg" alt="img_amara" class="img_good img">
                      <div class="content_good">
                         <h2 class="content_good_header">Amara Resort & Spa</h2>
                         <div class="hotels_from">
@@ -100,10 +100,10 @@
                   </div>
                   <div class="rating">
                      <div class="stars_rating">
-                        <img src="img/star.svg" alt="star">
-                        <img src="img/star.svg" alt="star">
-                        <img src="img/star.svg" alt="star">
-                        <img src="img/star.svg" alt="star">
+                        <img src="img/star.svg" alt="star" class="img">
+                        <img src="img/star.svg" alt="star" class="img">
+                        <img src="img/star.svg" alt="star" class="img">
+                        <img src="img/star.svg" alt="star" class="img">
                      </div>
                      <span>Рейтинг: 8,5</span>
                   </div>
@@ -112,7 +112,7 @@
             <div class="good">
                <div class="center_good">
                   <div class="main_content_good">
-                     <img src="img/desert_quail.jpg" alt="desert_quail" class="img_good">
+                     <img src="img/desert_quail.jpg" alt="desert_quail" class="img_good img">
                      <div class="content_good">
                         <h2 class="content_good_header">Desert Quail Inn</h2>
                         <div class="hotels_from">
@@ -127,9 +127,9 @@
                   </div>
                   <div class="rating">
                      <div class="stars_rating">
-                        <img src="img/star.svg" alt="star">
-                        <img src="img/star.svg" alt="star">
-                        <img src="img/star.svg" alt="star">
+                        <img src="img/star.svg" alt="star" class="img">
+                        <img src="img/star.svg" alt="star" class="img">
+                        <img src="img/star.svg" alt="star" class="img">
                      </div>
                      <span>Рейтинг: 8,9</span>
                   </div>
@@ -138,7 +138,7 @@
             <div class="good">
                <div class="center_good">
                   <div class="main_content_good">
-                     <img src="img/villas.jpg" alt="villas" class="img_good">
+                     <img src="img/villas.jpg" alt="villas" class="img_good img">
                      <div class="content_good">
                         <h2 class="content_good_header">Villas at Poco Diablo</h2>
                         <div class="hotels_from">
@@ -153,8 +153,8 @@
                   </div>
                   <div class="rating">
                      <div class="stars_rating">
-                        <img src="img/star.svg" alt="villas">
-                        <img src="img/star.svg" alt="villas">
+                        <img src="img/star.svg" alt="villas" class="img">
+                        <img src="img/star.svg" alt="villas" class="img">
                      </div>
                      <span>Рейтинг: 9,2</span>
                   </div>
@@ -162,21 +162,21 @@
             </div>
          </section>
       </main>
-      <footer class="without_map">
+      <footer class="footer without_map">
          <div class="content_footer">
             <div class="contact_footer">
                <span>#visitsedona</span>
                <a href="tel:+7(495)666-02-66">Тел: +7(495) 666-02-66</a>
             </div>
             <ul class="social_links">
-               <li><a href="https://twitter.com/" class="twitter"><img src="img/twitter.svg" alt="Twitter Icon"></a></li>
-               <li> <a href="https://www.facebook.com/" class="facebook"><img src="img/fb-icon.svg" alt="Facebook Icon"></a></li>
-               <li> <a href="https://www.youtube.com/" class="youtube"><img src="img/youtube.svg" alt="Youtube Icon"></a></li>
+               <li class="text_decoration_none"><a href="https://twitter.com/" class="twitter"><img src="img/twitter.svg" alt="Twitter Icon" class="img"></a></li>
+               <li class="text_decoration_none"> <a href="https://www.facebook.com/" class="facebook"><img src="img/fb-icon.svg" alt="Facebook Icon" class="img"></a></li>
+               <li class="text_decoration_none"> <a href="https://www.youtube.com/" class="youtube"><img src="img/youtube.svg" alt="Youtube Icon" class="img"></a></li>
             </ul>
             <div class="footer_logo">
                <span>Website by </span>
                <a href="http://www.htmlacademy.ru">
-               <img src="img/logo-htmlacademy.svg" alt="logo-htmlacademy" width="116" height="39">
+               <img src="img/logo-htmlacademy.svg" alt="logo-htmlacademy" width="116" height="39" class="img">
                </a>
             </div>
          </div>
