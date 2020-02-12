@@ -126,8 +126,12 @@ a {
 	background-image: url("../img/background_header.jpg");
 	padding-top: 76px;
 	padding-bottom: 87px;
+	position: relative;
 }
-
+.header_photo_content::after{
+content: '';
+	display: block;
+}
 .real_city {
 	display: flex;
 }
@@ -172,6 +176,18 @@ a {
 .social_links a {
 	background-color: #81b3d2;
 }
+.social_links li{
+	margin-right: 6px;
+}
+.social_links li a:hover{
+	background-color:#669ec0;
+}
+.social_links li a:active{
+	background-color:#88b6d1;
+}
+.social_links li:last-child{
+	margin-right: 0;
+}
 
 .twitter {
 	padding: 16px 14px 16px 16px;
@@ -181,10 +197,7 @@ a {
 	padding: 13px 17px 13px 17px;
 }
 
-footer {
-	display: flex;
-	justify-content: space-between;
-}
+
 
 .contact_footer {
 	display: flex;
@@ -460,6 +473,9 @@ footer {
 footer {
 	background-image: url("../img/map.jpg");
 	padding-top: 472px;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
 }
 
 .content_footer {
@@ -487,7 +503,6 @@ footer {
 
 .have_u_interested {
 	padding-top: 58px;
-	padding-bottom: 54px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -510,6 +525,7 @@ footer {
 	text-transform: uppercase;
 	max-width: 434px;
 	text-align: center;
+	padding-bottom: 141px;
 }
 
 .find_hotels_in_sedona {
@@ -521,16 +537,27 @@ footer {
 	text-transform: uppercase;
 	background-color: #766357;
 	text-align: center;
-	padding-top: 35px;
-	padding-bottom: 35px;
+	display: flex;
 }
-
+.find_hotels_in_sedona a{
+	padding: 35px 140px 35px 140px;
+	color: #fff;
+}
+.find_hotels_in_sedona a:hover{
+	cursor: pointer;
+}
+.find_hotels_in_sedona:hover{
+	background-color: #604e43;
+}
+.find_hotels_in_sedona a:active{
+	color: #857871;
+}
 .modal-icon {
-	position: fixed;
-	top: 34%;
-	left: 41%;
-	max-width: 589px;
-	height: 483px;
+	position: absolute;
+    top: 0;
+    left: 26.2%;
+    max-width: 570px;
+    height: 483px;
 }
 
 
@@ -833,13 +860,22 @@ footer {
 	padding-left: 65px;
 	margin-bottom: 11px;
 }
-
-
+.adults_label {
+	margin-right: 31px;
+}
+.first_plus_minus_span{
+	margin-right: 53px;
+}
+.children_label{
+	margin-right: 27px;
+}
 /*стилизация модального окна*/
 
 .modal {
 	background-color: #fff;
 	padding: 55px;
+	width: 84.6%;
+	    width: 461px;
 }
 
 .middle_text_form {
@@ -849,11 +885,42 @@ footer {
 	text-transform: uppercase;
 	font-weight: bold;
 }
-
-.input_plus_img {
-	display: flex;
+.middle_form_date{
+	padding-right: 0;
 }
 
+.date_checkin_input{
+	margin-right: 13px;
+}
+.date_checkout_input{
+	margin-right: 10px;
+}
+.input_plus_img:first-child input{
+	width: 74%;
+}
+
+.date_checkin{
+	padding-right: 0;
+}
+.input_plus_img {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.input_plus_img img{
+	position: absolute;
+	right: 5%;
+}
+.input_plus_img input{
+	    font-size: 16px;
+    line-height: 26px;
+    font-family: PT-Sans-Bold;
+    padding: 14px 0 14px 14px;
+	width: 68%;
+}
+.modal fieldset{
+	padding-left: 0;
+}
 .middle_form_date {
 	display: flex;
 }
@@ -862,14 +929,22 @@ footer {
 	display: flex;
 }
 
-.adultspluschildren input {
-	max-width: 115px;
-}
 
+.plus_minus_span input{
+	max-width: 38px;
+	text-align: center;
+}
 .modal-icon fieldset input {
 	border: 0;
 	background-color: #f2f2f2;
 }
+.modal-icon fieldset input:hover {
+	background-color: #ebebeb;
+}
+.modal-icon fieldset input:focus {
+	background-color: #ffffff;
+}
+
 
 .modal_submit {
 	background-color: #81b3d2;
@@ -1011,4 +1086,14 @@ footer {
 
 .modal_submit:active {
 	color: #88b6d1;
+}
+.negative_positive{
+	display: flex;
+}
+.plus_minus_span{
+	display: flex;
+}
+.plus_minus_span button{
+	background-color: #f2f2f2;
+	border: 0;
 }

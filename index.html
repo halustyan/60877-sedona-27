@@ -86,6 +86,11 @@
             <p class="fill_in_date_range">Укажите предполагаемые даты поездки, 
                и мы покажем вам лучшие предложения гостиниц в седоне
             </p>
+			<div class="find_hotels_in_sedona" >
+				<a href="">ПОИСК ГОСТИНИЦЫ В седоне</a>
+			 </div>
+			
+			 
          </div>
       </main>
       <footer class="footer">
@@ -95,7 +100,8 @@
                <a href="tel:+7(495)666-02-66">Тел: +7(495) 666-02-66</a>
             </div>
             <ul class="social_links">
-               <li class="text_decoration_none"><a href="https://twitter.com/" class="twitter">
+               <li class="text_decoration_none">
+				   <a href="https://twitter.com/" class="twitter">
 				   <img src="img/twitter.svg" alt="Twitter Icon" class="img"></a></li>
                <li class="text_decoration_none"> 
 				   <a href="https://www.facebook.com/" class="facebook">
@@ -104,7 +110,8 @@
 				</li>
                <li class="text_decoration_none"> 
 				   <a href="https://www.youtube.com/" class="youtube">
-<img src="img/youtube.svg" alt="Youtube Icon" class="img"></a></li>
+                   <img src="img/youtube.svg" alt="Youtube Icon" class="img"></a>
+				</li>
             </ul>
             <div class="footer_logo">
                <span>Website by </span>
@@ -113,40 +120,49 @@
                </a>
             </div>
          </div>
-      </footer>
-      <div class="modal-icon">
-         <p class="find_hotels_in_sedona">ПОИСК ГОСТИНИЦЫ В седоне</p>
+		  <div class="modal-icon">
+         
          <form class="modal" method="get" action="php/modal.php">
             <fieldset class="middle_form_date fieldset">
                <span class="input_plus_img">
-               <label for="date_checkin" class="middle_text_form">Дата заезда</label>
+               <label for="date_checkin" class="middle_text_form date_checkin_input">Дата заезда</label>
                <input type="text" name="date_checkin" id="date_checkin" value="24 апреля 2017 года" placeholder="">
                <img src="img/calendar.svg" alt="calendar checkin" class="img">
                </span>
             </fieldset>
-            <fieldset class="fieldset">
+            <fieldset class="fieldset date_checkin">
                <span class="input_plus_img">
-               <label for="date-checkout" class="middle_text_form">Дата выезда</label>
+               <label for="date-checkout" class="middle_text_form date_checkout_input">Дата выезда</label>
                <input type="text" name="date-checkout" id="date-checkout" value="4 июля 2017 года">
                <img src="img/calendar.svg" alt="calendar checkout" class="img">
                </span>
             </fieldset>
             <fieldset class="adultspluschildren fieldset">
+				
+				<div class="negative_positive">
                <span class="plus_negative">
-               <label for="adults" class="middle_text_form">Взрослые</label>
+               <label for="adults" class="middle_text_form adults_label" >Взрослые</label>
+				   
+				   <span class="plus_minus_span first_plus_minus_span">
                <button><i class="icon-minus-1"></i></button>
                <input type="text" name="adults" id="adults" value="0">
                <button> <i class="icon-plus-1"></i></button>
+				   </span>
                </span>
                <span class="plus_negative">
-               <label for="children" class="middle_text_form">Дети</label>
+               <label for="children" class="middle_text_form children_label">Дети</label>
+				   <span class="plus_minus_span ">
                <button> <i class="icon-minus-1"></i></button>
                <input type="text" name="children" id="children" value="1">
                <button> <i class="icon-plus-1"></i></button>
+				  </span> 
                </span>
+				</div>
             </fieldset>
             <input type="submit" value="Найти" class="modal_submit">
          </form>
       </div>
+      </footer>
+      
    </body>
 </html>
