@@ -4,6 +4,7 @@
       <meta charset="utf-8">
       <title>HTML Academy: Седона</title>
       <link href="css/style.css" rel="stylesheet" type="text/css">
+      <link href="css/normalize.css" rel="stylesheet" type="text/css">
    </head>
    <body>
       <header>
@@ -63,7 +64,6 @@
          <ul class="deskription_of_the_benefits">
             <li class="deskription">
                <span class="deskription_in_deskription_of_the_benefits">  Небольшая площадь</span>
-				
                <span class="number_in_deskription">— №3 —</span>
                <span class="main_text_in_deskription">Все достопримечательности </span>
                <span class="main_text_in_deskription">находятся очень близко</span>
@@ -89,59 +89,54 @@
          </div>
       </main>
       <footer>
-		  <div class="content_footer">
-         <div class="contact_footer">
-            <span>#visitsedona</span>
-            <a href="tel:+7(495)666-02-66">Тел: +7(495) 666-02-66</a>
+         <div class="content_footer">
+            <div class="contact_footer">
+               <span>#visitsedona</span>
+               <a href="tel:+7(495)666-02-66">Тел: +7(495) 666-02-66</a>
+            </div>
+            <ul class="social_links">
+               <li><a href="https://twitter.com/" class="twitter"><img src="img/twitter.svg" alt="Twitter Icon"></a></li>
+               <li> <a href="https://www.facebook.com/" class="facebook"><img src="img/fb-icon.svg" alt="Facebook Icon"></a></li>
+               <li> <a href="https://www.youtube.com/" class="youtube"><img src="img/youtube.svg" alt="Youtube Icon"></a></li>
+            </ul>
+            <div class="footer_logo">
+               <span>Website by </span>
+               <a href="http://www.htmlacademy.ru">
+               <img src="img/logo-htmlacademy.svg" alt="logo-htmlacademy" width="116" height="39">
+               </a>
+            </div>
          </div>
-         <ul class="social_links">
-            <li><a href="https://twitter.com/" class="twitter"><img src="img/twitter.svg" alt="Twitter Icon"></a></li>
-            <li> <a href="https://www.facebook.com/" class="facebook"><img src="img/fb-icon.svg" alt="Facebook Icon"></a></li>
-            <li> <a href="https://www.youtube.com/" class="youtube"><img src="img/youtube.svg" alt="Youtube Icon"></a></li>
-         </ul>
-         <div class="footer_logo">
-            <span>Website by </span>
-            <a href="http://www.htmlacademy.ru">
-            <img src="img/logo-htmlacademy.svg" alt="logo-htmlacademy" width="116" height="39">
-            </a>
-         </div>
-		  </div>
       </footer>
       <div class="modal-icon">
          <p class="find_hotels_in_sedona">ПОИСК ГОСТИНИЦЫ В седоне</p>
          <form class="modal" method="get" action="php/modal.php">
             <fieldset class="middle_form_date">
-				<span class="input_plus_img">
+               <span class="input_plus_img">
                <label for="date_checkin" class="middle_text_form">Дата заезда</label>
-				
-				
                <input type="text" name="date_checkin" id="date_checkin" value="24 апреля 2017 года" placeholder="">
                <img src="img/calendar.svg" alt="calendar checkin">
-				</span>
+               </span>
             </fieldset>
             <fieldset>
-				<span class="input_plus_img">
+               <span class="input_plus_img">
                <label for="date-checkout" class="middle_text_form">Дата выезда</label>
-				
                <input type="text" name="date-checkout" id="date-checkout" value="4 июля 2017 года">
                <img src="img/calendar.svg" alt="calendar checkout">
-					</span>
+               </span>
             </fieldset>
             <fieldset class="adultspluschildren">
-				<span class="plus_negative">
+               <span class="plus_negative">
                <label for="adults" class="middle_text_form">Взрослые</label>
-				
                <button><i class="icon-minus-1"></i></button>
                <input type="text" name="adults" id="adults" value="0">
                <button> <i class="icon-plus-1"></i></button>
-				</span>
-				<span class="plus_negative">
+               </span>
+               <span class="plus_negative">
                <label for="children" class="middle_text_form">Дети</label>
-				
                <button> <i class="icon-minus-1"></i></button>
                <input type="text" name="children" id="children" value="1">
                <button> <i class="icon-plus-1"></i></button>
-				</span>
+               </span>
             </fieldset>
             <input type="submit" value="Найти" class="modal_submit">
          </form>
