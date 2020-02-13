@@ -1004,6 +1004,7 @@ footer {
 
 .price-controls {
 	position: relative;
+	display: flex;
 	height: 36px;
 	margin-bottom: 20px;
 	font-size: 0;
@@ -1166,4 +1167,26 @@ footer {
 	line-height: 26px;
 	font-weight: bold;
 	font-family: PT-Sans-Bold;
+}
+.list_filters{
+	padding-left: 30px;
+	position: relative;
+}
+.list_filters::after{
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 30px;
+	height: 30px;
+	background-repeat: no-repeat;
+	background-image: url("../img/checkbox-off.svg");
+}
+.heads_input:checked + .list_filters::after{
+	background-image: url("../img/checkbox-on.svg");
+	background-image: no-repeat;
+}
+.heads_input{
+	display: none;
 }
