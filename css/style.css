@@ -76,9 +76,7 @@
 	font-family: PT-Sans-Regular;
 	src: url("../fonts/web/PTSansRegular.ttf");
 	/* Путь к файлу со шрифтом */
-}
-
-* {
+}*{
 	padding: 0;
 	margin: 0;
 }
@@ -86,6 +84,7 @@
 a {
 	text-decoration: none;
 }
+
 
 .fieldset {
 	border: 0;
@@ -98,10 +97,14 @@ a {
 .img {
 	max-width: 100%;
 }
-
+body{
+	padding: 0;
+	margin: 0;
+}
 .body {
 	background-color: #f2f2f2;
 	position: relative;
+	
 }
 .header {
 	margin: 0 auto;
@@ -265,7 +268,9 @@ content: '';
 
 .logo {
 	position: absolute;
-	left: 45%;
+	left: 50%;
+	    margin-left: -70px;
+
 }
 
 .menu_main ul {
@@ -274,7 +279,21 @@ content: '';
 	padding-bottom: 24px;
 	justify-content: space-around;
 }
-
+.navigation_list li{
+	width: 240px;
+}
+.navigation_list li:nth-child(4n){
+	text-align: right;
+}
+.navigation_list li:nth-child(4n-1){
+	text-align: right;
+}
+.navigation_list li:nth-child(4n-2){
+	text-align: left;
+}
+.navigation_list li:nth-child(4n-3){
+	text-align: left;
+}
 .menu_main ul a {
 	font-size: 14px;
 	line-height: 26px;
