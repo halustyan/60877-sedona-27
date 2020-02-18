@@ -129,7 +129,7 @@ a {
 .header_photo_content::after{
 content: '';
 	display: block;
-	height: 50px;
+	height: 58px;
 	width: 100%;
 	position: absolute;
 	bottom: 0;
@@ -177,7 +177,7 @@ content: '';
 	display: flex;
 	align-items: center;
 	margin-right: 228px;
-	margin-top: -15px;
+	margin-top: -19px;
 }
 
 .social_links a {
@@ -229,6 +229,7 @@ content: '';
 
 .main_intro {
 	max-width: 458px;
+	margin-bottom: 8px;
 }
 
 .facebook {
@@ -342,7 +343,7 @@ z-index: 100;
 	display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 65px;
+    padding-top: 59px;
     padding-bottom: 50px;
     background-color: #ffffff;
 }
@@ -381,12 +382,12 @@ z-index: 100;
 }
 
 .real_city_number {
-	    color: #ffffff;
+	      color: #ffffff;
     font-size: 14px;
     line-height: 21px;
-    margin-bottom: 22px;
+    margin-bottom: 20px;
     margin-top: 1px;
-    margin-left: 0px;
+   
 
 }
 
@@ -434,7 +435,7 @@ z-index: 100;
 
 
 .icon_benefits {
-	margin-bottom: 29px;
+	    margin-bottom: 26px;
 }
 
 .benefits_deskription {
@@ -505,7 +506,7 @@ z-index: 100;
 	display: flex;
     align-items: center;
     text-align: center;
-    padding-top: 46px;
+    padding-top: 50px;
     padding-bottom: 60px;
     background-color: #eeeeee;
     padding-left: 95px;
@@ -629,7 +630,7 @@ footer {
     flex-direction: column;
 }
 .find_hotels_in_sedona a{
-	padding: 30px 140px 31px 140px;
+	padding: 30px 140px 30px 140px;
 	color: #fff;
 }
 .find_hotels_in_sedona a:hover{
@@ -1291,5 +1292,4 @@ background-color: #6a6a6a;
 .btn-transparent{
 	margin-left: 82px;
 }
-	margin-left: 56px;
-}
+	
