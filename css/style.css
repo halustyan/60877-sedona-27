@@ -78,6 +78,8 @@
 	src: url("../fonts/web/PTSansRegular.ttf");
 	/* Путь к файлу со шрифтом */
 }
+
+
 body{
 	background-color: #f2f2f2;
 }
@@ -366,9 +368,11 @@ z-index: 100;
 
 .small_city_five_reasons {
 	font-size: 14px;
-	line-height: 26px;
-	font-family: PT-Sans-Regular;
-	color: #333333;
+    line-height: 26px;
+    font-family: 'PT Sans', sans-serif;
+    color: #333333;
+    margin-left: 0px;
+    letter-spacing: 0.1px;
 }
 
 .real_city_header {
@@ -415,7 +419,7 @@ z-index: 100;
 
 
 .sedona_is_not_entertainment {
-	font-family: PT-Sans-Regular;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 14px;
 	line-height: 21px;
 	color: #fff;
@@ -460,7 +464,7 @@ z-index: 100;
 }
 
 .benefits_deskription_text {
-	font-family: PT-Sans-Regular;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 14px;
 	line-height: 21px;
 	color: #333333;
@@ -487,7 +491,7 @@ z-index: 100;
 .number_two {
 	font-size: 14px;
     line-height: 21px;
-    font-family: PT-Sans-Regular;
+    font-family: 'PT Sans', sans-serif;
     margin-bottom: 21px;
     color: #fff;
 }
@@ -495,7 +499,7 @@ z-index: 100;
 .yes_you_can_walk_on_it {
 	    font-size: 14px;
     line-height: 21px;
-    font-family: PT-Sans-Regular;
+    font-family: 'PT Sans', sans-serif;
     text-transform: uppercase;
     text-align: center;
     color: #fff;
@@ -541,7 +545,7 @@ z-index: 100;
 }
 
 .number_in_deskription {
-	font-family: PT-Sans-Regular;
+	font-family: 'PT Sans', sans-serif;
     font-size: 14px;
     line-height: 21px;
     margin-bottom: 22px;
@@ -550,7 +554,7 @@ z-index: 100;
 .main_text_in_deskription {
 	font-size: 14px;
 	line-height: 21px;
-	font-family: PT-Sans-Regular;
+	font-family: 'PT Sans', sans-serif;
 	text-transform: uppercase;
 }
 
@@ -583,7 +587,7 @@ footer {
 	margin-right: 8px;
 	font-size: 14px;
 	line-height: 26px;
-	font-family: PT-Sans-Regular;
+	font-family: 'PT Sans', sans-serif;
 	text-transform: uppercase;
 }
 
@@ -607,7 +611,7 @@ footer {
 .fill_in_date_range {
 	font-size: 14px;
 	line-height: 24px;
-	font-family: PT-Sans-Regular;
+	font-family: 'PT Sans', sans-serif;
 	text-transform: uppercase;
 	max-width: 436px;
 	text-align: center;
@@ -676,7 +680,7 @@ footer {
 .list_filters {
 	font-size: 14px;
 	line-height: 21px;
-	font-family: PT-Sans-Regular;
+	font-family: 'PT Sans', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
 }
@@ -725,7 +729,7 @@ footer {
 	font-size: 14px;
 	line-height: 21px;
 	text-transform: uppercase;
-	font-family: PT-Sans-Regular;
+	font-family: 'PT Sans', sans-serif;
 	color: #fff;
 }
 
@@ -733,7 +737,7 @@ footer {
 	font-size: 14px;
 	line-height: 21px;
 	text-transform: uppercase;
-	font-family: PT-Sans-Regular;
+	font-family: 'PT Sans', sans-serif;
 	color: #fff;
 }
 
@@ -744,13 +748,13 @@ footer {
 	font-size: 14px;
 	line-height: 21px;
 	text-transform: uppercase;
-	font-family: PT-Sans-Regular;
+	font-family: 'PT Sans', sans-serif;
 	color: #fff;
 	padding: 11px 33px 11px 33px;
 }
 
 .what-have-found {
-	    padding-left: 73px;
+    padding-left: 73px;
     padding-right: 73px;
     padding-top: 30px;
     padding-bottom: 29px;
@@ -771,7 +775,7 @@ footer {
 .sort_in_filter {
 	font-size: 12px;
 	line-height: 18px;
-	font-family: PT-Sans-Regular;
+	font-family: 'PT Sans', sans-serif;
 }
 
 .sort_in_filter {
@@ -822,7 +826,7 @@ footer {
 .hotels_from span {
 	font-size: 14px;
 	line-height: 21px;
-	font-family: PT-Sans-Regular;
+	font-family: 'PT Sans', sans-serif;
 	text-transform: uppercase;
 }
 
@@ -884,14 +888,14 @@ footer {
 	text-transform: uppercase;
 	font-size: 14px;
 	line-height: 21px;
-	font-family: PT-Sans-Regular;
+	font-family: 'PT Sans', sans-serif;
 	padding: 6px 14px 6px 14px;
 }
 
 .sorting_link {
 	font-size: 12px;
 	line-height: 18px;
-	font-family: PT-Sans-Regular;
+	font-family: 'PT Sans', sans-serif;
 }
 
 .sorting_link a {
@@ -1109,7 +1113,7 @@ footer {
 
 .price-controls label {
 	display: inline-block;
-	font-family: PT-Sans-Regular;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 14px;
 	line-height: 38px;
 	vertical-align: top;
@@ -1176,7 +1180,7 @@ footer {
 	display: block;
 	margin: 0 auto;
 	padding: 6px 35px;
-	font-family: PT-Sans-Regular;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 14px;
 	line-height: 20px;
 	color: #ffffff;
