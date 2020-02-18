@@ -957,19 +957,21 @@ footer {
 	margin-bottom: 11px;
 }
 .adults_label {
-	margin-right: 31px;
+	margin-right: 43px;
+	margin-top: 7px;
 }
 .first_plus_minus_span{
 	margin-right: 53px;
 }
 .children_label{
 	margin-right: 27px;
+	margin-top: 8px;
 }
 /*стилизация модального окна*/
 
 .modal {
 	background-color: #fff;
-	padding: 55px;
+	padding: 46px 55px 55px 55px ;
 	width: 84.6%;
 	    width: 461px;
 }
@@ -986,26 +988,32 @@ footer {
 }
 
 .date_checkin_input{
-	margin-right: 13px;
+	 margin-right: 23px;
+    margin-top: 8px;
+
 }
 .date_checkout_input{
-	margin-right: 10px;
+	    margin-right: 20px;
+    margin-top: 10px;
 }
 .input_plus_img:first-child input{
-	width: 74%;
+	    width: 72%;
+    margin-top: 4px;
 }
 
 .date_checkin{
 	padding-right: 0;
+	    margin-bottom: 16px;
+
 }
 .input_plus_img {
 	display: flex;
-	align-items: center;
-	position: relative;
+    position: relative;
 }
 .input_plus_img svg{
-	position: absolute;
-	right: 5%;
+	    position: absolute;
+    right: 2.7%;
+    top: 29%;
 }
 .icon-minus-1{
 	color: #a9a9a9;
@@ -1026,17 +1034,18 @@ footer {
 	color: #81b3d2;
 }
 .input_plus_img input{
-	    font-size: 16px;
+	    font-size: 14px;
     line-height: 26px;
     font-family: PT-Sans-Bold;
-    padding: 14px 0 14px 14px;
-	width: 68%;
+    padding: 5px 0 5px 12px;
+    text-transform: uppercase;
 }
 .modal fieldset{
-	padding-left: 0;
+	padding-left: 2px;
 }
 .middle_form_date {
 	display: flex;
+	    margin-bottom: 12px;
 }
 
 .plus_negative {
@@ -1061,17 +1070,35 @@ footer {
 
 
 .modal_submit {
-	background-color: #81b3d2;
-	border: 0;
-	width: 100%;
-	padding: 17px 0 21px 0;
-	text-transform: uppercase;
-	color: #fff;
-	font-family: PT-Sans-Bold;
-	font-weight: bold;
-	margin-top: 54px;
+	    background-color: #81b3d2;
+    border: 0;
+    width: 100%;
+    padding: 14px 0 17px 0;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: PT-Sans-Bold;
+    font-weight: bold;
+    font-size: 21px;
+    margin-top: 47px;
+    line-height: 26px;
+
+}
+.plus_minus_span button:first-child{
+	  padding-top: 5px;
+    padding-left: 5px;
+
 }
 
+.plus_minus_span input{
+	    padding-left: 8px;
+    padding-top: 7px;
+}
+.plus_minus_span button:last-child{
+	   padding-left: 8px;
+    padding-top: 11px;
+    padding-right: 7px;
+    padding-bottom: 8px;
+}
 
 /*hard filter begin*/
 
@@ -1296,4 +1323,9 @@ background-color: #6a6a6a;
 .btn-transparent{
 	margin-left: 82px;
 }
-	
+	.plus_minus_span button:last-child {
+    padding-left: 10px;
+}
+.plus_minus_input_last_child{
+	    padding-left: 9px;
+}
