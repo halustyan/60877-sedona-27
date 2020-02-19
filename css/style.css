@@ -113,10 +113,7 @@ a {
 	max-width: 1200px;
 }
 
-.footer {
-	max-width: 1200px;
-	margin: 0 auto;
-}
+
 
 
 
@@ -147,7 +144,7 @@ content: '';
     display: flex;
     flex-direction: column;
     align-items: center;
-   padding:  47px 59px 61px 59px;
+    padding: 47px 59px 59px 59px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -179,7 +176,7 @@ content: '';
 	display: flex;
 	align-items: center;
 	margin-right: 228px;
-	margin-top: -19px;
+	margin-top: 3px;
 }
 
 .social_links a {
@@ -389,7 +386,7 @@ z-index: 100;
 	      color: #ffffff;
     font-size: 14px;
     line-height: 21px;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
     margin-top: 1px;
    
 
@@ -408,7 +405,7 @@ z-index: 100;
 }
 
 .benefits-list li:first-child{
-	padding-top: 19px;
+	    padding-top: 12px;
 }
 .benefits-list li:nth-child(2n){
 	padding-top: 14px;
@@ -439,7 +436,7 @@ z-index: 100;
 
 
 .icon_benefits {
-	    margin-bottom: 26px;
+	 margin-bottom: 28px;
 }
 
 .benefits_deskription {
@@ -457,7 +454,8 @@ z-index: 100;
 	    margin-top: 6px;
 }
 .header_benefits:nth-child(2n){
-	margin-bottom: 23px;
+	  margin-bottom: 24px;
+    margin-left: -2px;
 }
 .order_all_the_time{
 	    max-width: 286px;
@@ -510,7 +508,7 @@ z-index: 100;
 	display: flex;
     align-items: center;
     text-align: center;
-    padding-top: 50px;
+       padding-top: 48px;
     padding-bottom: 60px;
     background-color: #eeeeee;
     padding-left: 95px;
@@ -558,17 +556,19 @@ z-index: 100;
 	text-transform: uppercase;
 }
 
-footer {
+.footer {
 	background-image: url("../img/map.jpg");
 	padding-top: 472px;
 	display: flex;
 	justify-content: space-between;
 	position: relative;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 .content_footer {
 	align-items: center;
-    padding-top: 33px;
+    padding-top: 30px;
     padding-bottom: 33px;
     background-color: #fdfdfd;
     display: flex;
@@ -580,7 +580,7 @@ footer {
 .footer_logo {
 	display: flex;
 	align-items: center;
-	margin-top: -18px;
+
 }
 
 .footer_logo span {
@@ -957,15 +957,16 @@ footer {
 	margin-bottom: 11px;
 }
 .adults_label {
-	margin-right: 43px;
-	margin-top: 7px;
+	    margin-top: 5px;
+    margin-right: 39px;
 }
 .first_plus_minus_span{
 	margin-right: 53px;
 }
 .children_label{
-	margin-right: 27px;
-	margin-top: 8px;
+	margin-right: 28px;
+    margin-top: 5px;
+    margin-left: 3px;
 }
 /*стилизация модального окна*/
 
@@ -973,7 +974,7 @@ footer {
 	background-color: #fff;
 	padding: 46px 55px 55px 55px ;
 	width: 84.6%;
-	    width: 461px;
+	width: 461px;
 }
 
 .middle_text_form {
@@ -990,11 +991,13 @@ footer {
 .date_checkin_input{
 	 margin-right: 23px;
     margin-top: 8px;
+	    letter-spacing: 0.08px;
 
 }
 .date_checkout_input{
-	    margin-right: 20px;
+	  margin-right: 16px;
     margin-top: 10px;
+    letter-spacing: 0.3px;
 }
 .input_plus_img:first-child input{
 	    width: 72%;
@@ -1004,8 +1007,8 @@ footer {
 .date_checkin{
 	padding-right: 0;
 	    margin-bottom: 16px;
-
 }
+
 .input_plus_img {
 	display: flex;
     position: relative;
@@ -1045,7 +1048,7 @@ footer {
 }
 .middle_form_date {
 	display: flex;
-	    margin-bottom: 12px;
+	    margin-bottom: 11px;
 }
 
 .plus_negative {
@@ -1073,28 +1076,28 @@ footer {
 	    background-color: #81b3d2;
     border: 0;
     width: 100%;
-    padding: 14px 0 17px 0;
+    padding: 15px 0 17px 1px;
     text-transform: uppercase;
     color: #fff;
     font-family: PT-Sans-Bold;
     font-weight: bold;
     font-size: 21px;
-    margin-top: 47px;
+    margin-top: 44px;
     line-height: 26px;
+    margin-left: 2px;
+    
 
 }
 .plus_minus_span button:first-child{
-	  padding-top: 5px;
-    padding-left: 5px;
-
+    padding-left: 7px;
+    padding-top: 2px;
 }
 
 .plus_minus_span input{
-	    padding-left: 8px;
-    padding-top: 7px;
+	       padding-left: 8px;
 }
 .plus_minus_span button:last-child{
-	   padding-left: 8px;
+	padding-left: 8px;
     padding-top: 11px;
     padding-right: 7px;
     padding-bottom: 8px;
@@ -1137,7 +1140,9 @@ footer {
 	background: #ffffff;
 	transform: translate(-50%, -50%);
 }
-
+.input_plus_img .date_checkout{
+	    padding-left: 12px;
+}
 .price-controls label {
 	display: inline-block;
 	font-family: 'PT Sans', sans-serif;
@@ -1311,8 +1316,7 @@ background-color: #6a6a6a;
 }
 .visitsedona{
 	    margin-bottom: 5px;
-    margin-top: 14px;
-    margin-left: 8px;
+   
 }
 .type_of_home_label{
 	padding-left: 42px;
@@ -1324,7 +1328,7 @@ background-color: #6a6a6a;
 	margin-left: 82px;
 }
 	.plus_minus_span button:last-child {
-    padding-left: 10px;
+    padding-left: 7px;
 }
 .plus_minus_input_last_child{
 	    padding-left: 9px;
