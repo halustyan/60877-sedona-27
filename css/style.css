@@ -81,12 +81,15 @@
 .header {
 	box-shadow: 0 0 6px #dedede;
 }
-.main{
+
+.main {
 	box-shadow: 0 0 6px #dedede;
 }
-.footer{
+
+.footer {
 	box-shadow: 0 0 6px #dedede;
 }
+
 a {
 	text-decoration: none;
 }
@@ -119,12 +122,15 @@ a {
 }
 
 .header_photo_content {
-	display: block;
 	text-align: center;
 	background-image: url(../img/background_header.jpg);
+	background-size: cover;
 	padding-top: 76px;
-	padding-bottom: 67px;
+	padding-bottom: 72px;
 	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .header_photo_content::after {
@@ -178,16 +184,19 @@ a {
 .social_links {
 	display: flex;
 	align-items: center;
-	margin-right: 228px;
 	margin-top: 3px;
+	margin-right: 50px;
+	flex-wrap: wrap;
+	max-width: 156px;
 }
 
-.social_links a {
+.social_links li {
 	background-color: #81b3d2;
 }
 
 .social_links li {
 	margin-right: 6px;
+margin-bottom: 6px;
 }
 
 .social_links li a:hover {
@@ -200,14 +209,31 @@ a {
 
 .social_links li:last-child {
 	margin-right: 0;
+	padding-top: 16px;
+	padding-right: 13px;
+	padding-bottom: 13px;
+	padding-left: 13px;
 }
 
-.twitter {
-	padding: 16px 14px 16px 16px;
+.social_links li:first-child {
+	padding-top: 17px;
+	padding-right: 14px;
+	padding-bottom: 13px;
+	padding-left: 15px;
 }
 
-.facebook {
-	padding: 13px 17px 13px 17px;
+.social_links li:nth-child(2n) {
+	padding-top: 13px;
+	padding-right: 17px;
+	padding-bottom: 10px;
+	padding-left: 17px;
+}
+
+.social_links li:nth-child(3n) {
+	padding-top: 16px;
+	padding-right: 13px;
+	padding-bottom: 13px;
+	padding-left: 13px;
 }
 
 .contact_footer {
@@ -218,25 +244,17 @@ a {
 	font-family: PT-Sans-Bold;
 	text-transform: uppercase;
 	font-weight: bold;
-	margin-right: 177px;
-	margin-left: 21px;
+	margin-left: 22px;
+	max-width: 224px;
 }
 
 .contact_footer a {
 	color: #000000;
 }
 
-.youtube {
-	padding: 16px 13px 16px 13px;
-}
-
 .main_intro {
 	max-width: 458px;
 	margin-bottom: 8px;
-}
-
-.facebook {
-	padding-top: 19px;
 }
 
 .what-have-found {
@@ -282,8 +300,14 @@ a {
 	display: flex;
 	padding-top: 14px;
 	padding-bottom: 16px;
-	padding-left: 12px;
+	width: 1056px;
 	justify-content: space-around;
+}
+
+.navigation_list {
+	max-width: 1200px;
+	flex-wrap: wrap;
+	margin: 0 auto;
 }
 
 .navigation_list li {
@@ -292,27 +316,25 @@ a {
 
 .navigation_list li:nth-child(4n) {
 	text-align: right;
-	display: flex;
-	justify-content: flex-start;
 }
 
 .navigation_list li:nth-child(4n-1) {
 	text-align: right;
-	margin-left: 50px;
-	display: flex;
-	justify-content: flex-end;
+	margin-left: auto;
+}
+
+.cart_of_the_state {
+	letter-spacing: 0.5px;
 }
 
 .navigation_list li:nth-child(4n-2) {
 	text-align: left;
-	margin-left: -20px;
+	margin-right: auto;
 }
 
 .navigation_list li:nth-child(4n-3) {
 	width: 240px;
 	text-align: left;
-	display: flex;
-	justify-content: flex-start;
 }
 
 .information {
@@ -384,6 +406,7 @@ a {
 	color: #333333;
 	margin-left: 0px;
 	letter-spacing: 0.1px;
+	text-align: center;
 }
 
 .real_city_header {
@@ -409,24 +432,14 @@ a {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
+	margin-top: 15px;
 	text-transform: uppercase;
 	width: 33%;
+	word-break: break-word;
 }
 
 .benefits_souvenirs_header {
 	margin-bottom: 34px;
-}
-
-.benefits-list li:first-child {
-	padding-top: 12px;
-}
-
-.benefits-list li:nth-child(2n) {
-	padding-top: 14px;
-}
-
-.benefits-list li:nth-child(3n) {
-	margin-top: -12px;
 }
 
 .sedona_is_not_entertainment {
@@ -439,6 +452,7 @@ a {
 .benefits-list {
 	padding-top: 42px;
 	padding-bottom: 81px;
+	flex-wrap: wrap;
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
@@ -466,10 +480,6 @@ a {
 	margin-bottom: 24px;
 }
 
-.icon_benefits_food {
-	margin-top: 6px;
-}
-
 .header_benefits:nth-child(2n) {
 	margin-bottom: 24px;
 	margin-left: -2px;
@@ -484,10 +494,6 @@ a {
 	font-size: 14px;
 	line-height: 21px;
 	color: #333333;
-}
-
-.img_souvenirs {
-	margin-top: 26px;
 }
 
 .bridge_of_the_devil_deskription {
@@ -526,28 +532,41 @@ a {
 	max-width: 303px;
 }
 
+.deskription_of_the_benefits_main {
+	background-color: #eeeeee;
+}
+
 .deskription_of_the_benefits {
 	display: flex;
-	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 1045px;
+	margin: 0 auto;
 	text-align: center;
-	padding-top: 48px;
+	padding-top: 45px;
 	padding-bottom: 60px;
-	background-color: #eeeeee;
-	padding-left: 95px;
 }
 
 .deskription {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	word-wrap: break-word;
 }
 
-.deskription_of_the_benefits li:first-child {
-	margin-right: 169px;
+.deskription:first-child {
+	padding-left: 18px;
+	width: 208px;
 }
 
-.deskription_of_the_benefits li:nth-child(2n) {
-	margin-right: 148px;
+.deskription:nth-child(2n) {
+	margin-left: 20px;
+	width: 263px;
+}
+
+.deskription:nth-child(3n) {
+	width: 263px;
+	width: 250px;
 }
 
 .deskription_in_deskription_of_the_benefits {
@@ -556,7 +575,7 @@ a {
 	text-transform: uppercase;
 	font-family: PT-Sans-Bold;
 	font-weight: bold;
-	margin-bottom: 22px;
+	margin-bottom: 24px;
 }
 
 .deskription_in_deskription_of_the_benefits_bottom {
@@ -564,7 +583,7 @@ a {
 }
 
 .deskription_in_deskription_of_the_benefits:first-child {
-	max-width: 117px;
+	max-width: 119px;
 }
 
 .number_in_deskription {
@@ -595,10 +614,17 @@ a {
 	align-items: center;
 	padding-top: 30px;
 	padding-bottom: 33px;
-	background-color: #fdfdfd;
 	display: flex;
+	max-width: 999px;
+	margin: 0 auto;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	word-break: break-word;
+}
+
+.content_footer_background {
+	background-color: #fdfdfd;
 	width: 100%;
-	padding-left: 102px;
 }
 
 .footer_logo {
@@ -629,6 +655,8 @@ a {
 	font-weight: bold;
 	margin-bottom: 23px;
 	text-transform: uppercase;
+	max-width: 298px;
+	text-align: center;
 }
 
 .fill_in_date_range {
@@ -661,6 +689,7 @@ a {
 .find_hotels_in_sedona a {
 	padding: 30px 140px 30px 140px;
 	color: #fff;
+	max-width: 668px;
 }
 
 .find_hotels_in_sedona a:hover {
@@ -680,7 +709,7 @@ a {
 	top: 0;
 	left: 26.2%;
 	max-width: 570px;
-	height: 483px;
+	height: auto;
 }
 
 
@@ -734,6 +763,8 @@ a {
 	display: flex;
 	align-items: center;
 	margin-bottom: 25px;
+	max-width: 112px;
+	word-break: break-all;
 }
 
 .infrastructure ul li input {
@@ -799,6 +830,9 @@ a {
 	line-height: 26px;
 	text-transform: uppercase;
 	margin-right: 43px;
+	max-width: 115px;
+	word-break: break-word;
+	display: inline-flex;
 }
 
 .sort_in_filter {
@@ -809,7 +843,15 @@ a {
 	margin-right: 35px;
 }
 
+.sorting_link_container {
+	max-width: 518px;
+}
+
 .center_good {
+	display: flex;
+}
+
+.what-have-found_content {
 	display: flex;
 }
 
@@ -846,6 +888,14 @@ a {
 	margin-bottom: 18px;
 }
 
+.hotels_from span:first-child {
+	max-width: 110px;
+}
+
+.hotels_from span:last-child {
+	max-width: 142px;
+}
+
 .img_good:nth-child(2n) {
 	margin-top: 0;
 }
@@ -872,6 +922,7 @@ a {
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 0.3px;
+	max-width: 258px;
 }
 
 .more_in_good_link {
@@ -935,6 +986,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
+	max-width: 110px;
 }
 
 .rating span {
@@ -950,6 +1002,8 @@ a {
 	font-size: 12px;
 	line-height: 18px;
 	font-family: 'PT Sans', sans-serif;
+	max-width: 76px;
+	display: inline-flex;
 }
 
 .sorting_link a {
@@ -1062,6 +1116,7 @@ a {
 	margin-right: 23px;
 	margin-top: 8px;
 	letter-spacing: 0.08px;
+	max-width: 96px;
 }
 
 .date_checkout_input {
@@ -1158,7 +1213,7 @@ a {
 	background-color: #81b3d2;
 	border: 0;
 	width: 100%;
-	padding: 15px 0 17px 1px;
+	padding: 15px 8px 16px 1px;
 	text-transform: uppercase;
 	color: #fff;
 	font-family: PT-Sans-Bold;
@@ -1466,10 +1521,17 @@ a {
 	padding-bottom: 28px;
 	padding-top: 26px;
 }
-.hotels_page_footer{
+
+.hotels_page_footer {
 	margin-left: 27px;
 	margin-right: 172px;
 }
-.visitsedona_footer{
+
+.visitsedona_footer {
 	margin-top: 3px;
+}
+
+.contact_footer_hotels {
+	margin-left: 28px;
+	margin-top: 2px;
 }
