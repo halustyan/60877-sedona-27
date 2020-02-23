@@ -829,10 +829,11 @@ margin-bottom: 6px;
 	font-size: 21px;
 	line-height: 26px;
 	text-transform: uppercase;
-	margin-right: 43px;
-	max-width: 115px;
+	max-width: 116px;
 	word-break: break-word;
 	display: inline-flex;
+	margin-right: 49px;
+
 }
 
 .sort_in_filter {
@@ -840,7 +841,12 @@ margin-bottom: 6px;
 	line-height: 18px;
 	font-family: 'PT Sans', sans-serif;
 	text-transform: uppercase;
-	margin-right: 35px;
+	margin-top: 4px;
+	margin-right: 39px;
+
+}
+.result_filter{
+	margin-left: 3px;
 }
 
 .sorting_link_container {
@@ -853,6 +859,7 @@ margin-bottom: 6px;
 
 .what-have-found_content {
 	display: flex;
+	align-items: center;
 }
 
 .main_content_good {
