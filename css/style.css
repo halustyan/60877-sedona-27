@@ -184,7 +184,7 @@ a {
 	margin-top: 3px;
 	margin-right: 50px;
 	flex-wrap: wrap;
-	max-width: 156px;
+	max-width: 159px;
 }
 
 .social_links li {
@@ -204,29 +204,22 @@ margin-bottom: 6px;
 	background-color: #88b6d1;
 }
 
-.social_links li:last-child {
-	margin-right: 0;
-	padding-top: 16px;
-	padding-right: 13px;
-	padding-bottom: 13px;
-	padding-left: 13px;
-}
 
-.social_links li:first-child {
+.social_links li a:first-child {
 	padding-top: 17px;
 	padding-right: 14px;
 	padding-bottom: 13px;
 	padding-left: 15px;
 }
 
-.social_links li:nth-child(2n) {
+.social_links li a:nth-child(2n) {
 	padding-top: 13px;
 	padding-right: 17px;
-	padding-bottom: 10px;
+	padding-bottom: 13px;
 	padding-left: 17px;
 }
 
-.social_links li:nth-child(3n) {
+.social_links li a:nth-child(3n) {
 	padding-top: 16px;
 	padding-right: 13px;
 	padding-bottom: 13px;
@@ -1613,4 +1606,32 @@ margin-bottom: 6px;
 }
 .modal-error {
   animation: shake 0.6s;
+}
+/*правка соц иконок*/
+.twitter {
+	padding: 16px 14px 16px 16px;
+}
+
+.facebook {
+	padding: 13px 17px 13px 17px;
+}
+.youtube {
+	padding: 16px 13px 16px 13px;
+}
+.social_links a {
+	background-color: #81b3d2;
+	display: block;
+}
+.social_links li{
+	margin-right: 6px;
+	min-height: 55px;
+}
+.social_links li:hover{
+	background-color:#669ec0;
+}
+.social_links li a:active{
+	background-color:#88b6d1;
+}
+.social_links li:last-child{
+	margin-right: 0;
 }
