@@ -77,17 +77,14 @@
 	src: url("../fonts/web/PTSansRegular.ttf");
 	/* Путь к файлу со шрифтом */
 }
-
-.header {
-	box-shadow: 0 0 6px #dedede;
-}
-
-.main {
+.main_content_for_all{
 	box-shadow: 0 0 6px #dedede;
 }
 
 .footer {
-	box-shadow: 0 0 6px #dedede;
+	
+	position: relative;
+	z-index: 1000;
 }
 
 a {
@@ -601,18 +598,19 @@ margin-bottom: 6px;
 }
 
 .footer {
-	background-image: url("../img/map.jpg");
-	padding-top: 472px;
+
 	display: flex;
 	justify-content: space-between;
 	position: relative;
 	max-width: 1200px;
 	margin: 0 auto;
 }
-
+.have_u_interested iframe{
+	position: relative;
+	z-index: 1;
+}
 .content_footer {
 	align-items: center;
-	padding-top: 30px;
 	padding-bottom: 33px;
 	display: flex;
 	max-width: 999px;
@@ -620,6 +618,7 @@ margin-bottom: 6px;
 	justify-content: space-between;
 	flex-wrap: wrap;
 	word-break: break-word;
+	padding-top: 25px;
 }
 
 .content_footer_background {
@@ -679,6 +678,7 @@ margin-bottom: 6px;
 	background-color: #766357;
 	text-align: center;
 	display: flex;
+	position: relative;
 }
 
 .fill_in_date_range {
@@ -705,11 +705,10 @@ margin-bottom: 6px;
 }
 
 .modal-icon {
-	position: absolute;
-	top: 0;
-	left: 26.2%;
-	max-width: 570px;
-	height: auto;
+	    position: absolute;
+    top: 86px;
+    max-width: 570px;
+    height: auto;
 }
 
 
@@ -864,6 +863,7 @@ margin-bottom: 6px;
 
 .main_content_good {
 	display: flex;
+	
 }
 
 .content_good {
@@ -1083,8 +1083,13 @@ margin-bottom: 6px;
 }
 
 .adults_label {
-	margin-top: 5px;
+	margin-top: 8px;
 	margin-right: 39px;
+	font-size: 14px;
+	line-height: 26px;
+	font-family: PT-Sans-Bold;
+	color: #000;
+	
 }
 
 .first_plus_minus_span {
@@ -1093,8 +1098,11 @@ margin-bottom: 6px;
 
 .children_label {
 	margin-right: 28px;
-	margin-top: 5px;
-	margin-left: 3px;
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 26px;
+    font-family: PT-Sans-Bold;
+    color: #000;
 }
 
 
@@ -1124,22 +1132,33 @@ margin-bottom: 6px;
 	margin-top: 8px;
 	letter-spacing: 0.08px;
 	max-width: 96px;
+	font-size: 14px;
+    line-height: 26px;
+	font-weight: bold;
+	font-family: PT-Sans-Bold;
+	color: #000000;
 }
 
 .date_checkout_input {
 	margin-right: 16px;
-	margin-top: 10px;
 	letter-spacing: 0.3px;
+	font-size: 14px;
+    line-height: 26px;
+	font-weight: bold;
+	font-family: PT-Sans-Bold;
+	color: #000000;
+	    margin-top: 7px;
+
 }
 
 .input_plus_img:first-child input {
 	width: 72%;
-	margin-top: 4px;
+	margin-top: 2px;
 }
 
 .date_checkin {
 	padding-right: 0;
-	margin-bottom: 16px;
+	    margin-bottom: 10px;
 }
 
 .input_plus_img {
@@ -1148,9 +1167,9 @@ margin-bottom: 6px;
 }
 
 .input_plus_img svg {
-	position: absolute;
-	right: 2.7%;
-	top: 29%;
+	    position: absolute;
+    right: 2%;
+    top: 23%;
 }
 
 .icon-minus-1 {
@@ -1191,7 +1210,7 @@ margin-bottom: 6px;
 
 .middle_form_date {
 	display: flex;
-	margin-bottom: 11px;
+	margin-bottom: 7px;
 }
 
 .plus_negative {
@@ -1218,17 +1237,17 @@ margin-bottom: 6px;
 
 .modal_submit {
 	background-color: #81b3d2;
-	border: 0;
-	width: 100%;
-	padding: 15px 8px 16px 1px;
-	text-transform: uppercase;
-	color: #fff;
-	font-family: PT-Sans-Bold;
-	font-weight: bold;
-	font-size: 21px;
-	margin-top: 44px;
-	line-height: 26px;
-	margin-left: 2px;
+    border: 0;
+    width: 99%;
+    padding: 15px 8px 16px 1px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: PT-Sans-Bold;
+    font-weight: bold;
+    font-size: 21px;
+    margin-top: 41px;
+    line-height: 26px;
+    margin-left: 2px;
 }
 
 .plus_minus_span button:first-child {
@@ -1237,14 +1256,14 @@ margin-bottom: 6px;
 }
 
 .plus_minus_span input {
-	padding-left: 8px;
+	    padding-left: 2px;
 }
 
 .plus_minus_span button:last-child {
 	padding-left: 8px;
 	padding-top: 11px;
-	padding-right: 7px;
-	padding-bottom: 8px;
+	padding-bottom: 5px;
+	padding-right: 5px;
 }
 
 
@@ -1505,7 +1524,7 @@ margin-bottom: 6px;
 }
 
 .plus_minus_span button:last-child {
-	padding-left: 7px;
+	padding-left: 3px;
 }
 
 .plus_minus_input_last_child {
@@ -1541,4 +1560,57 @@ margin-bottom: 6px;
 .contact_footer_hotels {
 	margin-left: 28px;
 	margin-top: 2px;
+}
+.hidden{
+	display: none;
+	
+}
+.animate{
+	animation: bounce 3s;
+}
+.error{
+	color: red;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+@keyframes bounce {
+  0% {
+    transform: translateX(-2000px);
+  }
+
+  70% {
+    transform: translateX(30px);
+  }
+
+  90% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(10px);
+  }
+}
+.modal-error {
+  animation: shake 0.6s;
 }
