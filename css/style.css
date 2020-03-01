@@ -80,7 +80,6 @@
 }
 
 .main_content_for_all {
-	-webkit-box-shadow: 0 0 6px #dedede;
 	box-shadow: 0 0 6px #dedede;
 	max-width: 1200px;
 	margin: 0 auto;
@@ -129,6 +128,7 @@ a {
 
 .header_photo_content {
 	text-align: center;
+	background-color:#F3EBEB; 
 	background-image: url(../img/background_header.jpg);
 	background-size: cover;
 	padding-top: 76px;
@@ -835,12 +835,14 @@ a {
 /* Cтилизация hotels.html*/
 
 .without_map {
+	background-color: #fefefe;
 	background-image: inherit;
 	padding-top: 0;
-	background-color: #fefefe;
+	
 }
 
 .content_filters {
+	background-color:#F3EEEE;
 	background-image: url(../img/hotels_flter_background.jpg);
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -1398,6 +1400,7 @@ a {
 
 .modal-icon fieldset input:focus {
 	background-color: #ffffff;
+	border: 2px solid #e5e5e5;
 }
 
 .modal_submit {
@@ -1471,7 +1474,6 @@ a {
 	height: 22px;
 	background: #ffffff;
 	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
 
@@ -1532,7 +1534,6 @@ a {
 	background: #ababab;
 	border: 8px solid #ffffff;
 	border-radius: 50%;
-	-webkit-box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
 	box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
 	cursor: pointer;
 }
@@ -1673,8 +1674,8 @@ a {
 	background-image: no-repeat;
 }
 
-.heads_input:disabled+.list_filters::after {
-	background-color: #6a6a6a;
+.heads_input:checked+.list_filters::after:disabled {
+	color: #6a6a6a;
 }
 
 .heads_input {
@@ -1878,7 +1879,9 @@ a {
 }
 
 .content_footer_hotels {
-	align-items: flex-start;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
 }
 
 .social_links_hotels {
