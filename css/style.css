@@ -1864,6 +1864,7 @@ a {
 .social_links li {
 	margin-right: 6px;
 	min-height: 50px;
+	margin-top: 3px;
 }
 
 .social_links li:hover {
