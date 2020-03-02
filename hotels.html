@@ -7,6 +7,7 @@
       <link href="css/normalize.css" rel="stylesheet" type="text/css">
    </head>
    <body class="body">
+	   <div class="main_content_for_all">
       <header class="header">
          <nav class="menu_main">
             <a href="index.html" class="logo"><img src="img/logo-sedona.svg" alt="logo Sedona" width="140" height="71"></a>
@@ -24,15 +25,15 @@
                      <p class="heads_filters">Инфраструктура:</p>
                      <ul>
                         <li class="text_decoration_none">
-                           <input type="checkbox" checked id="pool" class="heads_input">
+                           <input type="checkbox" checked id="pool" class="heads_input" tabindex="0">
                            <label for="pool" class="list_filters" tabindex="0">бассейн</label>
                         </li>
                         <li class="text_decoration_none">
-                           <input type="checkbox" id="parking" class="heads_input">
+                           <input type="checkbox" id="parking" class="heads_input" tabindex="0">
                            <label for="parking" class="list_filters" tabindex="0">парковка</label>
                         </li>
                         <li class="text_decoration_none">
-                           <input type="checkbox" id="wifi" class="heads_input">
+                           <input type="checkbox" id="wifi" class="heads_input" tabindex="0">
                            <label class="list_filters" for="wifi" tabindex="0">wi-fi</label>
                         </li>
                      </ul>
@@ -41,7 +42,7 @@
                      <p class="heads_filters">Тип жилья:</p>
                      <ul>
                         <li class="text_decoration_none">
-                           <input type="checkbox" checked id="hotel" class="heads_input">
+                           <input type="checkbox" checked id="hotel" class="heads_input" tabindex="0">
                            <label for="hotel" class="list_filters type_of_home_label" tabindex="0">гостиница</label>
                         </li>
                         <li class="text_decoration_none">
@@ -49,7 +50,7 @@
                            <label for="motel" class="list_filters type_of_home_label" tabindex="0">мотель</label>
                         </li>
                         <li class="text_decoration_none">
-                           <input type="checkbox" checked id="apartaments" class="heads_input">
+                           <input type="checkbox" checked id="apartaments" class="heads_input" tabindex="0">
                            <label for="apartaments" class="list_filters type_of_home_label" tabindex="0">апартаменты</label>
                         </li>
                      </ul>
@@ -58,10 +59,10 @@
                      <div class="filter-range-title">Стоимость в сутки (р):</div>
                      <div class="price-controls">
                         <label class="min-price" tabindex="0">от
-                        <input type="number" name="min-price" value="0">
+                        <input type="number" name="min-price" value="0" tabindex="0">
                         </label>
                         <label class="max-price" tabindex="0">до
-                        <input type="number" name="max-price" value="3000">
+                        <input type="number" name="max-price" value="3000" tabindex="0">
                         </label>
                      </div>
                      <div class="range-controls">
@@ -216,5 +217,6 @@
             </div>
          </div>
       </footer>
+		  </div> 
    </body>
 </html>

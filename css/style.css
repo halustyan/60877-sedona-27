@@ -80,9 +80,9 @@
 }
 
 .main_content_for_all {
-	box-shadow: 0 0 6px #dedede;
 	max-width: 1200px;
 	margin: 0 auto;
+	box-shadow: 0 0 6px #dedede;
 }
 
 body {
@@ -131,6 +131,7 @@ a {
 	background-color:#F3EBEB; 
 	background-image: url(../img/background_header.jpg);
 	background-size: cover;
+	background-position: -3px -58px;
 	padding-top: 76px;
 	padding-bottom: 72px;
 	position: relative;
@@ -1400,7 +1401,6 @@ a {
 
 .modal-icon fieldset input:focus {
 	background-color: #ffffff;
-	border: 2px solid #e5e5e5;
 }
 
 .modal_submit {
