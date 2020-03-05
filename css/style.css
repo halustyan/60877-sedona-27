@@ -1075,14 +1075,14 @@ a {
 .hotels_from span {
 	font-size: 14px;
 	line-height: 21px;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'PT Sans', "Arial", sans-serif;
 	text-transform: uppercase;
 }
 
 .content_good_header {
 	font-size: 21px;
 	line-height: 26px;
-	font-family: PT-Sans-Bold;
+	font-family: PT-Sans-Bold, "Arial", sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 0.3px;
@@ -1090,7 +1090,7 @@ a {
 }
 
 .more_in_good_link {
-	font-family: PT-Sans-Bold;
+	font-family: PT-Sans-Bold, "Arial", sans-serif;
 	font-weight: bold;
 	background-color: #81b3d2;
 	text-transform: uppercase;
@@ -1110,7 +1110,7 @@ a {
 }
 
 .book {
-	font-family: PT-Sans-Bold;
+	font-family: PT-Sans-Bold, "Arial", sans-serif;
 	font-weight: bold;
 	background-color: #766357;
 	text-transform: uppercase;
@@ -1165,14 +1165,14 @@ a {
 	text-transform: uppercase;
 	font-size: 14px;
 	line-height: 21px;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'PT Sans', "Arial", sans-serif;
 	padding: 4px 11px 4px 15px;
 }
 
 .sorting_link {
 	font-size: 12px;
 	line-height: 18px;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'PT Sans', "Arial", sans-serif;
 	max-width: 85px;
 	display: -webkit-inline-box;
 	display: -ms-inline-flexbox;
