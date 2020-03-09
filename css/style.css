@@ -463,7 +463,7 @@ a {
 .small_city_five_reasons {
 	font-size: 14px;
 	line-height: 26px;
-	font-family: 'PT Sans', "Arial", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
 	color: #333333;
 	margin-left: 0px;
 	letter-spacing: 0.1px;
@@ -474,7 +474,7 @@ a {
 	font-size: 21px;
 	line-height: 21px;
 	color: #ffffff;
-	font-family: ""PT-Sans-Bold"", "Arial", sans-serif;
+	font-family: "PT-Sans-Bold", "Arial", sans-serif;
 	font-weight: bold;
 	margin-bottom: 23px;
 	max-width: 122px;
@@ -511,7 +511,7 @@ a {
 }
 
 .sedona_is_not_entertainment {
-	font-family: 'PT Sans', "Arial", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 14px;
 	line-height: 21px;
 	color: #fff;
@@ -565,7 +565,7 @@ a {
 }
 
 .benefits_deskription_text {
-	font-family: 'PT Sans', "Arial", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 14px;
 	line-height: 21px;
 	color: #333333;
@@ -592,7 +592,7 @@ a {
 .number_two {
 	font-size: 14px;
 	line-height: 21px;
-	font-family: 'PT Sans', "Arial", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
 	margin-bottom: 21px;
 	color: #fff;
 }
@@ -600,7 +600,7 @@ a {
 .yes_you_can_walk_on_it {
 	font-size: 14px;
 	line-height: 21px;
-	font-family: 'PT Sans', "Arial", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
 	text-transform: uppercase;
 	text-align: center;
 	color: #fff;
@@ -674,7 +674,7 @@ a {
 }
 
 .number_in_description {
-	font-family: 'PT Sans', "Arial", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 14px;
 	line-height: 21px;
 	margin-bottom: 22px;
@@ -683,7 +683,7 @@ a {
 .main_text_in_deskription {
 	font-size: 14px;
 	line-height: 21px;
-	font-family: 'PT Sans', "Arial", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
 	text-transform: uppercase;
 }
 
@@ -741,7 +741,7 @@ a {
 	margin-right: 8px;
 	font-size: 14px;
 	line-height: 26px;
-	font-family: 'PT Sans', "Arial", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
 	text-transform: uppercase;
 }
 
@@ -774,7 +774,7 @@ a {
 .fill_in_date_range {
 	font-size: 14px;
 	line-height: 24px;
-	font-family: 'PT Sans', "Arial", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
 	text-transform: uppercase;
 	max-width: 436px;
 	text-align: center;
@@ -862,7 +862,7 @@ a {
 .list_filters {
 	font-size: 14px;
 	line-height: 21px;
-	font-family: 'PT Sans', "Arial", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
 	text-transform: uppercase;
 	color: #fff;
 }
@@ -914,7 +914,7 @@ a {
 	margin-bottom: 25px;
 }
 
-.type_of_home ul li input {
+.type_of_home input {
 	margin-right: 16px;
 }
 
@@ -926,7 +926,7 @@ a {
 	font-size: 14px;
 	line-height: 21px;
 	text-transform: uppercase;
-	font-family: 'PT Sans', "Arial", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
 	color: #fff;
 }
 
@@ -934,7 +934,7 @@ a {
 	font-size: 14px;
 	line-height: 21px;
 	text-transform: uppercase;
-	font-family: 'PT Sans', "Arial", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
 	color: #fff;
 }
 
@@ -945,7 +945,7 @@ a {
 	font-size: 14px;
 	line-height: 21px;
 	text-transform: uppercase;
-	font-family: 'PT Sans', "Arial", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
 	color: #fff;
 	padding: 11px 33px 11px 33px;
 }
@@ -981,7 +981,7 @@ a {
 .sort_in_filter {
 	font-size: 12px;
 	line-height: 18px;
-	font-family: 'PT Sans', "Arial", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
 	text-transform: uppercase;
 	margin-top: 4px;
 	margin-right: 39px;
@@ -1075,7 +1075,7 @@ a {
 .hotels_from span {
 	font-size: 14px;
 	line-height: 21px;
-	font-family: 'PT Sans', "Arial", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
 	text-transform: uppercase;
 }
 
@@ -1165,14 +1165,14 @@ a {
 	text-transform: uppercase;
 	font-size: 14px;
 	line-height: 21px;
-	font-family: 'PT Sans', "Arial", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
 	padding: 4px 11px 4px 15px;
 }
 
 .sorting_link {
 	font-size: 12px;
 	line-height: 18px;
-	font-family: 'PT Sans', "Arial", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
 	max-width: 85px;
 	display: -webkit-inline-box;
 	display: -ms-inline-flexbox;
@@ -1219,7 +1219,7 @@ a {
 	margin-right: 30px;
 }
 
-.arrows a img {
+.arrows img {
 	color: #cacaca;
 }
 
@@ -1390,12 +1390,12 @@ a {
 	text-align: center;
 }
 
-.modal-icon fieldset input {
+.input_in_form {
     border: 2px solid transparent;
 	background-color: #f2f2f2;
 }
 
-.modal-icon fieldset input:hover {
+.modal-icon input:hover {
 	background-color: #ebebeb;
 }
 
@@ -1491,7 +1491,7 @@ a {
 
 .price-controls label {
 	display: inline-block;
-	font-family: 'PT Sans', "Arial", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 14px;
 	line-height: 38px;
 	vertical-align: top;
@@ -1558,7 +1558,7 @@ a {
 	display: block;
 	margin: 0 auto;
 	padding: 6px 33px 6px 35px;
-	font-family: 'PT Sans', "Arial", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 14px;
 	line-height: 20px;
 	color: #ffffff;
@@ -1878,7 +1878,7 @@ a {
 	background-color: #669ec0;
 }
 
-.social_links li a:active {
+.social_links a:active {
 	background-color: #88b6d1;
 }
 
@@ -1923,4 +1923,8 @@ a {
 }
 .item-active a{
 	color: #9b8d84
+}
+.custominform{
+	border: 0;
+	background-color: #f2f2f2;
 }
